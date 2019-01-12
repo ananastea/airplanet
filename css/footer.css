@@ -1,0 +1,42 @@
+.footer {
+  background-color: #4b73b5;
+      padding-top: 10px;
+    padding-bottom: 5px;
+}
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+}
+
+.footer__signature {
+  width: 250px;
+}
+
+
+.footer__social-list{
+	display: flex;
+	justify-content: space-around;
+
+
+}
+.footer__social-link{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color:#cad7ef;
+	display: flex;
+	justify-content: center;
+
+}
+
+.footer__loftschool{
+	color: white;
+	font-weight: bold;
+}
+
+.soocial_tittle{
+	margin-bottom: 5px;
+    font-size: 15px;
+}

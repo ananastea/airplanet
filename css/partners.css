@@ -1,0 +1,39 @@
+.partners{
+   
+  margin-bottom: 84px
+        
+}
+
+.title--partners{
+    margin-bottom: 0px;
+}
+
+.partners__list{
+       width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  
+}
+.partners__item{
+    padding-top:7%;
+   
+    flex:1 1 240px;
+   
+}
+.partner__link{
+    display:flex;
+    justify-content: center;
+}
+.partner__logo{
+    max-width:200px;
+    max-height: 60px;
+    display:flex;
+    filter:opacity(0.7) grayscale(1);
+}
+.partner__logo:hover{
+    filter:opacity(1) grayscale(0);
+}
+
+
+

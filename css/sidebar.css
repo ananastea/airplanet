@@ -1,0 +1,44 @@
+.sidebar{
+min-width: 180px;
+
+}
+
+.navigation{
+	display: flex;
+	flex-direction:column;
+	
+	
+}
+
+.navigation__menu{
+	display: flex;
+	flex-direction:column;
+	margin-top: 32px;
+
+}
+
+.navigation__item{
+	display: flex;
+	margin-bottom: 15px;
+        margin-top: 15px;
+
+}
+
+
+.navigation__link{
+	color:#4b73b5;
+	text-decoration: none;
+	font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 2px;
+
+    
+
+}
+
+.navigation__icon{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 18px;
+}
+

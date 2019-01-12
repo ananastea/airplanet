@@ -1,0 +1,16 @@
+.pattern {
+  background-image: url("/img/pattern.png")
+}
+
+.pattern__content {
+  font-size: 18px;
+  color: white;
+  width: 670px;
+  margin: 0 auto;
+  padding: 65px 0;
+}
+
+.pattern__content-text {
+  font-weight: bold;
+  color: white;
+}

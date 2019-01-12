@@ -1,0 +1,43 @@
+.breadcrumbs{
+	margin-top: 43px;
+	
+}
+
+.breadcrumbs__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.breadcrumbs__item {
+  display: inline-block;
+  vertical-align: middle;
+  font-style: italic;
+  font-size: 14px;
+
+}
+
+.breadcrumbs__item:before {
+  content: "/";
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.breadcrumbs__item:first-child:before {
+  display: none;
+}
+
+.breadcrumbs__separator {
+  display: inline-block;
+}
+
+.breadcrumbs__link {
+  display: inline-block;
+  color:#4b73b5;
+
+}
+
+.breadcrumbs__link--act{
+	text-decoration: none;
+	color: grey;
+}

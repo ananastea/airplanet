@@ -1,0 +1,90 @@
+.banner{
+	display: flex;
+	margin-top: 10px;
+}
+
+.banner_img{
+	width: 100%;
+}
+
+.tariff {
+    margin-top: 15px;
+}
+
+.tariff__text{
+	font-size: 49px;
+	font-weight: bold;
+}
+
+.tariff__type{
+	display: flex;
+        margin-top: 65px;
+	margin-bottom: 90px;
+}
+
+.tariff__type-info{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tariff__type-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	    margin-right: 45px;
+	width:250px;
+}
+
+.tariff__type-pic{
+	width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(75, 115, 181);
+    text-align: center;
+}
+
+.tariff__pic{
+	margin-top: 20px;
+
+}
+
+.tariff__type-name{
+	font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-top: 32px;
+    margin-bottom: 6px
+}
+
+.tariff__desc{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 15px;
+    line-height: 1.5;
+	margin-bottom: 13px;
+}
+
+.tariff__desc-item{
+	list-style: disc;
+        margin-bottom: 14px;
+}
+
+.tariff__desc-list{
+	font-size: 18px;
+    font-weight: 300;
+    list-style-type: disc;
+	
+}
+
+.tariff__price {
+    font-weight: bold;
+    padding-top: 15px;
+    font-size: 49px;
+    display: flex;
+    align-items: center;
+}
+
+sub{
+	font-size: 35px;
+}

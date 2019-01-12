@@ -1,0 +1,20 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts__phone{
+	font-size: 21px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contacts__schedule{
+	color: #fff;
+	font-size: 14px;
+	display: flex;
+	justify-content: flex-end;
+	font-weight: bold;
+	text-decoration: underline;
+}

@@ -1,0 +1,21 @@
+header{
+	background-color: #4b73b5;
+}
+
+.container--header{
+	min-height: 75px;
+	display: flex;
+	align-items: center;
+}
+
+.header__col{
+	display: flex;
+	flex: 1;
+	align-items: center;
+
+}
+
+.header__col--right{
+	display: flex;
+	justify-content: flex-end;
+}
